@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'montserrat',sans-serif;
+    background-color:  #111111;
+}
+
+.navbar{
+    background-color: #111111;
+}
+
+.navbar .navbar-brand{
+    opacity: 0.8;
+    color: #f5f5f7;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .navbar-brand:hover{
+
+    color: #1AC1CA;
+}
+
+.navbar .navbar-nav .nav-item a{
+    opacity: 0.8;
+    font-size: 13px;
+    color: #f5f5f7;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #1AC1CA;
+}
+
+.landing-sec{
+height: 100vh;
+padding-top: 100px;
+}
+.landing-sec h3{
+    color: #fAfAfA;
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing-sec h1{
+    font-size: 92px;
+    font-weight: 700;
+    color: #fAfAfA;
+}
+.landing-sec h1 span{
+    background-image: linear-gradient(to right,rgb(11, 118, 221), rgb(21, 215, 200));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landing-sec p{
+    color: #A1A1A1;
+    font-size: 18px;
+    font-weight: 500;
+}
+.landing-sec .btn{
+    background-image: linear-gradient(to right,rgb(11, 118, 221), rgb(21, 215, 200));
+    color: #fAfAfA;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.aboutsec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.aboutsec h1{
+    color: #fAfAfA;
+    font-size: 60px;
+    font-weight: 800;
+}
+.aboutsec h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #15d7C2;
+    padding-top: 15px;
+}
+.aboutsec h2{
+    font-size: 26px;
+    color: #f9f9f9;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.aboutsec p{
+    color: #f9f9f9;
+    font-size: 15px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+.timeline-sec{
+padding-top: 50px;
+padding-bottom: 100px;
+padding-left: 50px;
+}
+.timeline-sec .heading h1{
+    color: #fAfAfA;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.timeline-sec .content .elements .verticalline{
+border-left: 1px solid #dce2e6!important;
+height: 55px;
+margin-left: 12px;
+margin-right: 12px;
+}
+.timeline-sec .content .elements .badgetle{
+    border-radius: 100%;
+    border: 1px solid #14ABA0;
+    height: 25px;
+    width: 25px;
+}
+.timeline-sec .content .card{
+    background-color: #1A1A1A;
+    margin-left: -30px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.timeline-sec .content .card .card-body h5{
+    color: #15d7C2;
+    font-size: 15px;
+}
+.timeline-sec .content .card .card-body h4{
+    color: #fAfAfA;
+    font-size: 15px;
+}
+.timeline-sec .content .card .card-body p{
+    color: #0C757d;
+    font-size: 16px;
+}
+.projectsec{
+    adding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px; 
+}
+.projectsec .heading h1{
+    color: #fAfAfA;
+    font-size: 60px;
+    font-weight: 700; 
+}
+.projectsec .content .card{
+    background-color: #1A1A1A;
+}
+.projectsec .content .card h5{
+    color: #14ABA0;
+    font-size: 15px;
+}
+.projectsec .content .card i{
+    font-size: 16px;
+    color: #fAfAfA;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.projectsec .content .card h3{
+    font-size: 24px;
+    color: #fAfAfA;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projectsec .content .card p{
+    font-size: 16px;
+    color: #818181;
+}
+.contactsec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.contactsec h1{
+    color: #fAfAfA;
+    font-size: 60px;
+    font-weight: 700;
+}
+.contactsec .formsec form{
+    margin-top: 50px;
+}
+.contactsec .formsec form .form-control{
+    margin-bottom: 20px;
+}
+.contactsec .formsec form input{
+    color: #fAfAfA;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.contactsec .formsec form input:focus,
+.contactsec .formsec form textarea:focus{
+border: 1px solid #14ABA0;
+color: #fAfAfA;
+}
+.contactsec .formsec form input::placeholder,
+.contactsec .formsec form textarea::placeholder{
+    color: #fAfAfA;
+    opacity: 0.5;
+}
+.contactsec .formsec form textarea{
+    color: #fAfAfA;
+    background-color: transparent;
+    height: 150px;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.contactsec .formsec form button{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0C757d,#14d0c1);
+    font-weight: 600;
+}
+
+
+
+
+
+
+.footer h1{
+    color:#f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer i{
+    color: #A1A1A1;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer i:hover{
+    color: #f9f9f9;
+}
+
+.footer p{
+    color:#f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
